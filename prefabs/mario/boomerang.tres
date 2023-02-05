@@ -1,79 +1,80 @@
-[gd_resource type="SpriteFrames" load_steps=25 format=3 uid="uid://ck3kuddihssyw"]
+[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://cata17rqd5fxf"]
 
-[ext_resource type="Texture2D" uid="uid://cqwic1mh6lsfc" path="res://modules/base/objects/mario/textures/mario/BoomerangAppear.png" id="1_52sce"]
-[ext_resource type="Texture2D" uid="uid://bw1ngilj8qm0a" path="res://modules/base/objects/mario/textures/mario/BoomerangClimb.png" id="1_jdgrk"]
+[ext_resource type="Texture2D" uid="uid://cqwic1mh6lsfc" path="res://modules/boomerang/prefabs/mario/BoomerangAppear.png" id="1_es3kg"]
 [ext_resource type="Texture2D" uid="uid://b1bka4okkj0bm" path="res://modules/base/objects/mario/textures/mario/Dead.png" id="2_35oi0"]
-[ext_resource type="Texture2D" uid="uid://d37e3hc2a0y53" path="res://modules/base/objects/mario/textures/mario/BoomerangCrouch.png" id="2_on4wv"]
-[ext_resource type="Texture2D" uid="uid://d10ufc1efesfw" path="res://modules/base/objects/mario/textures/mario/BoomerangWalk.png" id="4_yp06y"]
-[ext_resource type="Texture2D" uid="uid://pekc0hl7mbwy" path="res://modules/base/objects/mario/textures/mario/BoomerangJump.png" id="5_1f1un"]
-[ext_resource type="Texture2D" uid="uid://bnfljn0d1gn23" path="res://modules/base/objects/mario/textures/mario/BoomerangSwim.png" id="6_s0rcd"]
+[ext_resource type="Texture2D" uid="uid://bw1ngilj8qm0a" path="res://modules/boomerang/prefabs/mario/BoomerangClimb.png" id="2_psr6d"]
+[ext_resource type="Texture2D" uid="uid://d37e3hc2a0y53" path="res://modules/boomerang/prefabs/mario/BoomerangCrouch.png" id="3_wh5f5"]
+[ext_resource type="Texture2D" uid="uid://d10ufc1efesfw" path="res://modules/boomerang/prefabs/mario/BoomerangWalk.png" id="5_1j8wy"]
+[ext_resource type="Texture2D" uid="uid://pekc0hl7mbwy" path="res://modules/boomerang/prefabs/mario/BoomerangJump.png" id="6_3s6gv"]
+[ext_resource type="Texture2D" uid="uid://b6vvt4tvvbd6o" path="res://modules/boomerang/prefabs/mario/BoomerangLaunch.png" id="7_3nn4f"]
+[ext_resource type="Texture2D" uid="uid://bnfljn0d1gn23" path="res://modules/boomerang/prefabs/mario/BoomerangSwim.png" id="8_e33ho"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_edaso"]
-atlas = ExtResource("1_52sce")
+atlas = ExtResource("1_es3kg")
 region = Rect2(0, 0, 34, 61)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_piy0w"]
-atlas = ExtResource("1_52sce")
+atlas = ExtResource("1_es3kg")
 region = Rect2(34, 0, 34, 61)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_r4rkb"]
-atlas = ExtResource("1_52sce")
+atlas = ExtResource("1_es3kg")
 region = Rect2(68, 0, 34, 61)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_woohk"]
-atlas = ExtResource("1_52sce")
+atlas = ExtResource("1_es3kg")
 region = Rect2(102, 0, 34, 61)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_knpa7"]
-atlas = ExtResource("1_jdgrk")
+atlas = ExtResource("2_psr6d")
 region = Rect2(0, 0, 31, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ff0q7"]
-atlas = ExtResource("1_jdgrk")
+atlas = ExtResource("2_psr6d")
 region = Rect2(31, 0, 31, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_py7v2"]
-atlas = ExtResource("4_yp06y")
+atlas = ExtResource("5_1j8wy")
 region = Rect2(0, 0, 33, 61)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_25kgi"]
-atlas = ExtResource("4_yp06y")
+atlas = ExtResource("5_1j8wy")
 region = Rect2(33, 0, 33, 61)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_o2gb5"]
-atlas = ExtResource("4_yp06y")
+atlas = ExtResource("5_1j8wy")
 region = Rect2(66, 0, 33, 61)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_u1yme"]
-atlas = ExtResource("6_s0rcd")
+atlas = ExtResource("8_e33ho")
 region = Rect2(0, 0, 42, 56)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_imgg1"]
-atlas = ExtResource("6_s0rcd")
+atlas = ExtResource("8_e33ho")
 region = Rect2(42, 0, 42, 56)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fqv2e"]
-atlas = ExtResource("6_s0rcd")
+atlas = ExtResource("8_e33ho")
 region = Rect2(84, 0, 42, 56)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qgde8"]
-atlas = ExtResource("6_s0rcd")
+atlas = ExtResource("8_e33ho")
 region = Rect2(126, 0, 42, 56)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_owy64"]
-atlas = ExtResource("6_s0rcd")
+atlas = ExtResource("8_e33ho")
 region = Rect2(168, 0, 42, 56)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vhqa5"]
-atlas = ExtResource("6_s0rcd")
+atlas = ExtResource("8_e33ho")
 region = Rect2(210, 0, 42, 56)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2orf1"]
-atlas = ExtResource("6_s0rcd")
+atlas = ExtResource("8_e33ho")
 region = Rect2(252, 0, 42, 56)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_83h6i"]
-atlas = ExtResource("6_s0rcd")
+atlas = ExtResource("8_e33ho")
 region = Rect2(294, 0, 42, 56)
 
 [resource]
@@ -108,7 +109,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_on4wv")
+"texture": ExtResource("3_wh5f5")
 }],
 "loop": true,
 "name": &"crouch",
@@ -138,10 +139,18 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("5_1f1un")
+"texture": ExtResource("6_3s6gv")
 }],
 "loop": true,
 "name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_3nn4f")
+}],
+"loop": false,
+"name": &"launch",
 "speed": 5.0
 }, {
 "frames": [{
