@@ -2,7 +2,7 @@
 
 [ext_resource type="SpriteFrames" uid="uid://ck3kuddihssyw" path="res://modules/boomerang/prefabs/mario/boomerang.tres" id="1_prbjv"]
 [ext_resource type="Script" path="res://modules/boomerang/boomerang_flower/boomerang_action.gd" id="2_pqox4"]
-[ext_resource type="Resource" uid="uid://dkr3ph2e4aw48" path="res://modules/base/objects/mario/prefabs/big_state.tres" id="3_eoqlo"]
+[ext_resource type="Resource" uid="uid://dkr3ph2e4aw48" path="res://engine/objects/mario/prefabs/big_state.tres" id="3_eoqlo"]
 [ext_resource type="Script" path="res://engine/scripts/resources/player_state_data/player_state_data.gd" id="4_wtu7a"]
 
 [resource]
